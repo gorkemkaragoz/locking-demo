@@ -1,4 +1,3 @@
-```markdown
 # locking-demo
 
 A basic project for Optimistic and Pessimistic Locking with Spring Boot and PostgreSQL.
@@ -38,4 +37,3 @@ DB_PASSWORD=your_password
 **Optimistic:** One thread succeeds, the other gets `ObjectOptimisticLockingFailureException`.
 
 **Pessimistic:** Both threads succeed. The second waits for the first to release the lock.
-```
